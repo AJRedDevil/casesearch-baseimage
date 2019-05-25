@@ -9,5 +9,8 @@ RUN apt-get update -y && \
   python-dev &&\
   rm -rf /var/lib/apt/lists/*
 
+RUN mkdir -p /usr/src
+WORKDIR /usr/src
+
 COPY requirements.txt .
 RUN pip install -r requirements.txt && rm requirements.txt
