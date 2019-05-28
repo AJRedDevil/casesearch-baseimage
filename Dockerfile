@@ -1,4 +1,4 @@
-FROM casesearchBase
+FROM casesearch_base
 
 LABEL maintainer="Ajan Lal Shrestha<ajan.shresh@gmail.com>"
 
