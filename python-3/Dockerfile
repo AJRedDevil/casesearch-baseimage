@@ -1,4 +1,4 @@
-FROM probates_base
+FROM casesearch_base
 
 LABEL maintainer="Ajan Lal Shrestha<ajan.shresh@gmail.com>"
 
